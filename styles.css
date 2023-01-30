@@ -20,7 +20,7 @@ body {
 .app {
   background: #fff;
   padding: 20px;
-  width: 600px;
+  max-width: 600px;
   margin: 0 auto;
   box-shadow: 0 1px 30px 0 rgba(0,0,0,0.14), 0 0px 0px 0 rgba(0,0,0,.12), 0 0px 0px 0px rgba(0,0,0,.3);
   border-radius: 10px;
@@ -117,11 +117,12 @@ margin-bottom: 15px;
   background: #ccc;
   min-height: 250px;
   min-width: 250px;
+
 }
 @media(min-width: 720px) {
   .game {
-    min-width: 500px;
-    min-height: 500px;
+    width: 350px;
+    height: 350px;
   }
 }
 
